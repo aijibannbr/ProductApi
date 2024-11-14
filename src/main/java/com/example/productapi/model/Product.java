@@ -10,6 +10,13 @@ public class Product {
     private Double price;
     private String description;
 
+    public Product(long productId, String oldProduct, double v) {
+    }
+
+    public Product() {
+
+    }
+
     public Long getId() {
         return id;
     }
